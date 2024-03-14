@@ -1,0 +1,60 @@
+body {
+  padding: 2.5% 5%;
+  font-size: 1.5em;
+  text-align: center;
+  user-select: none;
+  background-color: #91d07d; /* Light gray background */
+  font-family: 'Roboto', sans-serif; /* Google Font for better readability */
+}
+
+h1 {
+  font-size: 3em; /* Larger heading size */
+  margin: 50px 0; /* Increased margin for better spacing */
+  color: #333; /* Dark gray heading color */
+}
+
+.button {
+  font-size: 1.2em; /* Slightly larger font size for buttons */
+  padding: 15px 30px; /* Increased padding for buttons */
+  margin: 20px 10px; /* Adjusted margins for better spacing */
+  border: none; /* Removed border for cleaner look */
+  border-radius: 5px; /* Reduced border radius for a softer appearance */
+  cursor: pointer;
+  background-color: #007bff; /* Primary blue button color */
+  color: #fff; /* White text color for better contrast */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+}
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+input[type="text"] {
+  font-size: 1.2em; /* Larger font size for input */
+  padding: 15px 30px; /* Increased padding for input */
+  margin: 20px 10px; /* Adjusted margins for better spacing */
+  border: 2px solid #007bff; /* Border for input */
+  border-radius: 5px; /* Rounded border for input */
+  text-align: center;
+  transition: border-color 0.3s ease; /* Smooth transition for hover effect */
+}
+input[type="text"]:hover {
+  border-color: #be0b29; /* Darker border color on hover */
+}
+
+/* Remove bullets from lists */
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Add space between rows */
+li {
+  margin-bottom: 18px;
+}
+
+/* Change color of feedback message to red */
+.feedback-message {
+  color: red !important; 
+}
